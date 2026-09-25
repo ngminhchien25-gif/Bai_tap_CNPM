@@ -1,6 +1,6 @@
 # Hệ Thống Quản Lý Khách Sạn
 
-Bài lab 3 môn Phân tích thiết kế hệ thống tại HUTECH. Ứng dụng WinForms nội bộ cho nhân viên khách sạn: đặt phòng, ghi nhận dịch vụ, xử lý hư hỏng, xuất hóa đơn. Khách không đăng nhập vào hệ thống — mọi thao tác đều do lễ tân hoặc nhân viên nhập giúp.
+Bài lab 3 môn Phân tích thiết kế hệ thống tại HCMUNRE. Ứng dụng WinForms nội bộ cho nhân viên khách sạn: đặt phòng, ghi nhận dịch vụ, xử lý hư hỏng, xuất hóa đơn. Khách không đăng nhập vào hệ thống — mọi thao tác đều do lễ tân hoặc nhân viên nhập giúp.
 
 Không phải sản phẩm thương mại, chỉ là một khách sạn quy mô nhỏ được mô hình hóa đủ để chạy được hết vòng đời từ lúc khách đặt phòng tới lúc trả phòng và thanh toán.
 
