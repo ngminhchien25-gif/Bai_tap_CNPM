@@ -1,0 +1,222 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="41RvLm-5rewVpvi7xXmq">
+    <mxGraphModel dx="1823" dy="2180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TienNghi" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="TienNghi" vertex="1">
+          <mxGeometry height="110" width="230" x="30" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TN_1" parent="TienNghi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaTienNghi        varchar(30)&#xa;FK   MaLoaiTN         varchar(20)&#xa;       SoThuTu           int&#xa;       TinhTrangHienTai  nvarchar(100)" vertex="1">
+          <mxGeometry height="84" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ChiTietPhieuDenBu" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="ChiTietPhieuDenBu" vertex="1">
+          <mxGeometry height="110" width="250" x="500" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="CTDB_1" parent="ChiTietPhieuDenBu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK,FK  SoPhieuDenBu   varchar(30)&#xa;PK,FK  MaTienNghi      varchar(30)&#xa;           MucDoThietHai   nvarchar(80)&#xa;           SoTien          decimal(18,2)" vertex="1">
+          <mxGeometry height="84" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NhanVien" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="NhanVien" vertex="1">
+          <mxGeometry height="110" width="230" x="750" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="NV_1" parent="NhanVien" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaNV         varchar(20)&#xa;       HoTen        nvarchar(120)&#xa;       VaiTro       nvarchar(50)&#xa;       SoDienThoai  varchar(20)" vertex="1">
+          <mxGeometry height="84" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HoaDon" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="HoaDon" vertex="1">
+          <mxGeometry height="180" width="240" x="910" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="HD_1" parent="HoaDon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   SoHoaDon        varchar(30)&#xa;FK   SoPhieuDat      varchar(30)&#xa;       NgayLap         datetime&#xa;FK   MaNV            varchar(20)&#xa;       SoNgayTinhTien  int&#xa;       TienPhong       decimal(18,2)&#xa;       TienDichVu      decimal(18,2)&#xa;       TongTien        decimal(18,2)&#xa;       TrangThai       nvarchar(30)" vertex="1">
+          <mxGeometry height="154" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ThanhToan" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="ThanhToan" vertex="1">
+          <mxGeometry height="120" width="230" x="915" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="TT_1" parent="ThanhToan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaThanhToan    varchar(30)&#xa;FK   SoHoaDon       varchar(30)&#xa;       NgayThanhToan  datetime&#xa;       HinhThuc       nvarchar(30)&#xa;       SoTien         decimal(18,2)" vertex="1">
+          <mxGeometry height="94" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LoaiTienNghi" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="LoaiTienNghi" vertex="1">
+          <mxGeometry height="70" width="210" x="40" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="LTN_1" parent="LoaiTienNghi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaLoaiTN   varchar(20)&#xa;       TenLoaiTN  nvarchar(100)" vertex="1">
+          <mxGeometry height="44" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PhieuLapDat" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="PhieuLapDat" vertex="1">
+          <mxGeometry height="150" width="250" x="330" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PLD_1" parent="PhieuLapDat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   SoPhieuLapDat  varchar(30)&#xa;FK   MaTienNghi     varchar(30)&#xa;FK   SoPhong        varchar(20)&#xa;       NgayLap        date&#xa;       TinhTrang      nvarchar(100)&#xa;FK   MaNV           varchar(20)&#xa;       GhiChu         nvarchar(250)" vertex="1">
+          <mxGeometry height="124" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PhieuDenBu" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="PhieuDenBu" vertex="1">
+          <mxGeometry height="130" width="240" x="640" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="PDB_1" parent="PhieuDenBu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   SoPhieuDenBu  varchar(30)&#xa;FK   SoPhieuDat    varchar(30)&#xa;FK   SoPhong       varchar(20)&#xa;       NgayLap       datetime&#xa;FK   MaNV          varchar(20)&#xa;       TongTien      decimal(18,2)" vertex="1">
+          <mxGeometry height="104" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ChiTietPhieuSuDungDV" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="ChiTietPhieuSuDungDV" vertex="1">
+          <mxGeometry height="110" width="250" x="1515" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="CTDV_1" parent="ChiTietPhieuSuDungDV" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK,FK  SoPhieuSDDV  varchar(30)&#xa;PK,FK  MaDV         varchar(20)&#xa;           SoLuong      int&#xa;           DonGia       decimal(18,2)&#xa;           ThanhTien    decimal(18,2)" vertex="1">
+          <mxGeometry height="84" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PhieuSuDungDV" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="PhieuSuDungDV" vertex="1">
+          <mxGeometry height="110" width="240" x="1520" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PSDV_1" parent="PhieuSuDungDV" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   SoPhieuSDDV  varchar(30)&#xa;FK   SoPhieuDat   varchar(30)&#xa;FK   SoPhong      varchar(20)&#xa;       NgaySuDung   date&#xa;FK   MaNV         varchar(20)" vertex="1">
+          <mxGeometry height="84" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PhieuDatPhong" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="PhieuDatPhong" vertex="1">
+          <mxGeometry height="210" width="240" x="1240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDP_1" parent="PhieuDatPhong" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   SoPhieuDat      varchar(30)&#xa;FK   MaKhach         varchar(20)&#xa;FK   MaNVLeTan       varchar(20)&#xa;       NgayLap         datetime&#xa;       NgayNhan        date&#xa;       NgayTraDuKien   date&#xa;       TienCoc         decimal(18,2)&#xa;       KenhDat         nvarchar(20)&#xa;       TrangThai       nvarchar(30)&#xa;       NgayNhanThucTe  datetime&#xa;       NgayTraThucTe   datetime" vertex="1">
+          <mxGeometry height="184" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QuyDinhDenBu" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="QuyDinhDenBu" vertex="1">
+          <mxGeometry height="100" width="230" x="30" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="QDDB_1" parent="QuyDinhDenBu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaQuyDinh      varchar(30)&#xa;FK   MaLoaiTN       varchar(20)&#xa;       MucDoThietHai  nvarchar(80)&#xa;       MucDenBu       decimal(18,2)" vertex="1">
+          <mxGeometry height="74" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Phong" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="Phong" vertex="1">
+          <mxGeometry height="110" width="230" x="340" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="P_1" parent="Phong" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   SoPhong       varchar(20)&#xa;FK   MaKhuVuc      varchar(20)&#xa;       SoNguoiToiDa  int&#xa;       DonGiaNgay    decimal(18,2)&#xa;       TrangThai     nvarchar(30)" vertex="1">
+          <mxGeometry height="84" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DichVu" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="DichVu" vertex="1">
+          <mxGeometry height="100" width="220" x="1530" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="DV_1" parent="DichVu" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaDV       varchar(20)&#xa;       TenDV      nvarchar(120)&#xa;       DonViTinh  nvarchar(40)&#xa;       DonGia     decimal(18,2)" vertex="1">
+          <mxGeometry height="74" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ChiTietDatPhong" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="ChiTietDatPhong" vertex="1">
+          <mxGeometry height="80" width="240" x="930" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CTDP_1" parent="ChiTietDatPhong" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK,FK  SoPhieuDat  varchar(30)&#xa;PK,FK  SoPhong     varchar(20)&#xa;           SoNguoi     int" vertex="1">
+          <mxGeometry height="54" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KhachHang" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="KhachHang" vertex="1">
+          <mxGeometry height="110" width="230" x="1245" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="KH_1" parent="KhachHang" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaKhach      varchar(20)&#xa;       HoTen        nvarchar(120)&#xa;       SoCMND       varchar(30)&#xa;       QuocTich     nvarchar(80)&#xa;       SoDienThoai  varchar(20)" vertex="1">
+          <mxGeometry height="84" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KhuVuc" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="KhuVuc" vertex="1">
+          <mxGeometry height="70" width="220" x="345" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="KV_1" parent="KhuVuc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaKhuVuc   varchar(20)&#xa;       TenKhuVuc  nvarchar(100)" vertex="1">
+          <mxGeometry height="44" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NguoiLuuTru" parent="1" style="shape=swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#F8E2AF;strokeColor=#825A2B;fontColor=#000000;" value="NguoiLuuTru" vertex="1">
+          <mxGeometry height="120" width="240" x="930" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="NLT_1" parent="NguoiLuuTru" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Courier New;" value="PK   MaNguoiLT   int&#xa;FK   SoPhieuDat  varchar(30)&#xa;FK   SoPhong     varchar(20)&#xa;       HoTen       nvarchar(120)&#xa;       SoCMND      varchar(30)&#xa;       QuocTich    nvarchar(80)" vertex="1">
+          <mxGeometry height="94" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" edge="1" parent="1" source="LoaiTienNghi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="TienNghi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" edge="1" parent="1" source="LoaiTienNghi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="QuyDinhDenBu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel3" edge="1" parent="1" source="TienNghi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="PhieuLapDat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel4" edge="1" parent="1" source="TienNghi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="ChiTietPhieuDenBu">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="250" />
+              <mxPoint x="600" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel5" edge="1" parent="1" source="Phong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="PhieuLapDat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel6" edge="1" parent="1" source="KhuVuc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="Phong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel7" edge="1" parent="1" source="Phong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERzeroToMany;endSize=10;" target="ChiTietDatPhong">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="445" />
+              <mxPoint x="750" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel8" edge="1" parent="1" source="NhanVien" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="PhieuLapDat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel9" edge="1" parent="1" source="NhanVien" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="PhieuDenBu">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="52.6" />
+              <mxPoint x="760" y="52.6" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel10" edge="1" parent="1" source="NhanVien" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="PhieuSuDungDV">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel11" edge="1" parent="1" source="NhanVien" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="HoaDon">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel12" edge="1" parent="1" source="NhanVien" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="PhieuDatPhong">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360.06" y="0.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel13" edge="1" parent="1" source="PhieuDenBu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="ChiTietPhieuDenBu">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="237.5" />
+              <mxPoint x="625" y="237.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel14" edge="1" parent="1" source="ChiTietDatPhong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERzeroToMany;endSize=10;" target="PhieuDenBu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel15" edge="1" parent="1" source="DichVu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="ChiTietPhieuSuDungDV">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel16" edge="1" parent="1" source="PhieuSuDungDV" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="ChiTietPhieuSuDungDV">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel17" edge="1" parent="1" source="ChiTietDatPhong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERzeroToMany;endSize=10;" target="PhieuSuDungDV">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="430" />
+              <mxPoint x="1560" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel18" edge="1" parent="1" source="ChiTietDatPhong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERzeroToMany;endSize=10;" target="NguoiLuuTru">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel19" edge="1" parent="1" source="PhieuDatPhong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERmany;endSize=10;" target="ChiTietDatPhong">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="440" />
+              <mxPoint x="1040" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel20" edge="1" parent="1" source="PhieuDatPhong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERone;endSize=10;" target="HoaDon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel21" edge="1" parent="1" source="KhachHang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERzeroToMany;endSize=10;" target="PhieuDatPhong">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel22" edge="1" parent="1" source="HoaDon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#B83B5E;strokeWidth=1.5;startArrow=ERmandOne;startSize=10;endArrow=ERzeroToMany;endSize=10;" target="ThanhToan">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
