@@ -22,9 +22,5 @@
 ## Cài đặt & chạy
 
 1. Chạy `Database/QuanLyCongTyDuLich.sql` trên SQL Server hoặc LocalDB (đã có sẵn dữ liệu mẫu).
-2. Sửa chuỗi kết nối `QuanLyCongTyDuLich` trong `App.config` cho khớp với máy.
-3. Mở solution bằng Visual Studio 2022, build và chạy. `FrmMain` là trang chủ điều hướng.
-
-## Ghi chú
-
-Đây là bài làm phục vụ môn học, chưa có phân quyền người dùng, chưa audit bảo mật và chưa có unit test.
+2. Sửa chuỗi kết nối `QuanLyCongTyDuLich` trong `DatabaseHelper` cho khớp với máy.
+3. Mở terminal trong Visual Studio Code 2022, build và chạy. `FrmMain` là trang chủ điều hướng.
