@@ -1692,11 +1692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\LAB6\\BenhVien\\BenhVien.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\Bai_tap_CNPM\\LAB6\\BenhVien\\BenhVien.csproj",
       "projectName": "BenhVien",
-      "projectPath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\LAB6\\BenhVien\\BenhVien.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\Bai_tap_CNPM\\LAB6\\BenhVien\\BenhVien.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\LAB6\\BenhVien\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\Bai_tap_CNPM\\LAB6\\BenhVien\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
