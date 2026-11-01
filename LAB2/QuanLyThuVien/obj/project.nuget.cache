@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZ52t9d9kmM=",
+  "dgSpecHash": "bzYOQW4D++8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\QuanLyThuVien\\QuanLyThuVien.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\Bai_tap_CNPM\\LAB2\\QuanLyThuVien\\QuanLyThuVien.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.18\\microsoft.bcl.cryptography.9.0.18.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.data.sqlclient\\7.1.0\\microsoft.data.sqlclient.7.1.0.nupkg.sha512",

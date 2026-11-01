@@ -1228,11 +1228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\QuanLyThuVien\\QuanLyThuVien.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\Bai_tap_CNPM\\LAB2\\QuanLyThuVien\\QuanLyThuVien.csproj",
       "projectName": "QuanLyThuVien",
-      "projectPath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\QuanLyThuVien\\QuanLyThuVien.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\Bai_tap_CNPM\\LAB2\\QuanLyThuVien\\QuanLyThuVien.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\QuanLyThuVien\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Downloads\\Phương pháp phát triển phần mềm hướng đối tượng\\Bai_tap_CNPM\\LAB2\\QuanLyThuVien\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
